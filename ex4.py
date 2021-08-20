@@ -12,7 +12,7 @@ while opcao != 3:
         print(f"O valor à vista é:", valoravista)
     if opcao == 2:
         opcaoparcelas = int(input("Escolha o número de parcelas (6, 12, 18, 24, 30, 36, 42, 48, 54 e 60): "))
-        if opcaoparcelas == 6 or opcaoparcelas == 6 or opcaoparcelas == 12 or opcaoparcelas == 18 or opcaoparcelas == 24 or opcaoparcelas == 30 or opcaoparcelas == 36 or opcaoparcelas == 42 or opcaoparcelas == 48 or opcaoparcelas == 54 or opcaoparcelas == 60:
+        if opcaoparcelas == 6 or opcaoparcelas == 12 or opcaoparcelas == 18 or opcaoparcelas == 24 or opcaoparcelas == 30 or opcaoparcelas == 36 or opcaoparcelas == 42 or opcaoparcelas == 48 or opcaoparcelas == 54 or opcaoparcelas == 60:
             if opcaoparcelas == 6:
                 valor *= 1.03
             if opcaoparcelas == 12:
